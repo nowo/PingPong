@@ -1,4 +1,3 @@
-// health.go
 package handler
 
 import (
@@ -20,5 +19,6 @@ func (h *HealthServer) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		response.WithError(w, http.StatusMethodNotAllowed, "Method not allowed")
 		return
 	}
+
 	response.WithJSON(w, http.StatusOK, map[string]bool{"ok": true})
 }
