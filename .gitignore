@@ -1,0 +1,32 @@
+# Binary output
+/bin/
+
+# Go build artifacts
+*.a
+*.test
+*.o
+
+# Go module cache
+go.sum
+go.mod
+
+# IDE specific files (for example, VSCode)
+.vscode/
+
+# macOS artifacts
+.DS_Store
+
+# Test coverage output
+coverage.out
+coverage.html
+
+# Other common temp/cache files
+*.log
+*.cache
+*.tmp
+
+# Any environment or secrets file
+.env
+
+# Vendor directory if not being tracked
+/vendor/
