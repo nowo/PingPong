@@ -33,7 +33,7 @@ func TestPingServer_ServeHTTP(t *testing.T) {
 			var body map[string]string
 			json.NewDecoder(rec.Body).Decode(&body)
 
-			if body["response"] != tt.expectedBody["responssse"] {
+			if body["response"] != tt.expectedBody["response"] {
 				t.Errorf("expected response %v, got %v", tt.expectedBody, body)
 			}
 		})
