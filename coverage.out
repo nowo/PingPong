@@ -1,9 +1,0 @@
-mode: set
-pingpong/internal/handler/health.go:14.60,20.2 4 1
-pingpong/internal/handler/ping.go:9.58,10.32 1 1
-pingpong/internal/handler/ping.go:10.32,13.3 2 1
-pingpong/internal/handler/ping.go:14.2,14.76 1 1
-pingpong/internal/response/http_response.go:9.65,11.2 1 1
-pingpong/internal/response/http_response.go:14.69,19.2 4 1
-pingpong/internal/middleware/logging.go:10.46,11.71 1 1
-pingpong/internal/middleware/logging.go:11.71,15.3 3 1
